@@ -181,3 +181,25 @@ body {
      grid-gap: 20px;
      margin-top: 20px;
  }
+
+ /* b.icon {
+     width: 30px;
+     height: 30px;
+     display: inline-block;
+     background-size: cover;
+ }
+
+ .views {
+     background-image: url('../images/view.svg');
+     /* Replace with your view icon image */
+ /* }
+
+ .comments {
+     background-image: url('../images/view.svg');
+     /* Replace with your comment icon image */
+ /* } */
+/* 
+ .downloads {
+     background-image: url('../images/view.svg');
+     /* Replace with your download icon image */
+ /* } */ 
