@@ -11,25 +11,31 @@ let searchvalue = '';
 
 function renderImages(image){
     const markup = image
-    .map(({ webformatURL,downloads,comments,views,tags, largeImageURL,likes }) => {
+      .map(({ webformatURL,
+        downloads,
+        comments,
+        views,
+        tags,
+        largeImageURL,
+        likes }) => {
       return`
        <div class="card">
     <img src="${webformatURL}" alt="Avatar" style="width:100%">
           
-    <div class="container">
-          <p class="flex flex-col items-center">
+    <div class="info">
+          <p class="flex">
             <b>Likes</b> 
             ${likes}
           </p>
-          <p class="flex flex-col items-center">
+          <p class="flex">
             <b>Views</b> 
             ${views}
           </p>
-          <p class="flex flex-col items-center">
+          <p class="flex">
             <b>Comments</b> 
             ${comments}
           </p>
-          <p class="flex flex-col items-center">
+          <p class="flex">
             <b>Downloads</b> 
             ${downloads}
           </p>
